@@ -1,0 +1,245 @@
+*, *:after, *:before {
+    transition: .5s ease-in-out;
+    /* добавим плавность переходов для всех элементов страницы*/
+ }
+ /*Филиал Красное лого*/
+.pink_menu{
+    height: 72px;
+    line-height: 72px;
+    background-color: #ec1646;
+    overflow: hidden;
+    position: relative;
+}
+.pink-menu__introductory-campaign-icon{
+    width: 47px;
+    height: 60px;
+}
+.pink-menu__link{
+    color: #fff;
+    margin-left: 8%;
+}
+.pink-menu__link:hover{
+    color: #2e2d2c;
+}
+ /*\Филиал Красное лого\*/
+/*Табы*/
+.tabs {
+    padding-top: 120px;
+  }
+  .tabs>input[type="radio"] {
+    display: none;
+  }
+  .tabs>input[type="radio"]:checked+label {
+    transition: .2s ease-in-out;
+    background-color: #44c8f5;
+    border: 1px solid #44c8f5;
+    color: #fff;
+    font-size: 12px; 
+  }
+  .tabs>div {
+    /* скрыть контент по умолчанию */
+    display: none;
+  }
+  /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+  #tab-btn-1:checked~#content-1,
+  #tab-btn-2:checked~#content-2,
+  #tab-btn-3:checked~#content-3 {
+    display: block;
+  }
+  .tabs>label {
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #004282;
+    border: 1px solid #004282;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: font-weight,color 0.3s ease;
+    cursor: pointer;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .panel_content{
+    padding-top: 80px;
+  }
+  .box_panel_item{
+    display: flex;
+    justify-content: space-between;
+  }
+  .item_panel{
+    background-color: #f5f6f8;
+    min-height: 250px;
+    min-width: 100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .img_box_item_panel_content{
+    margin: 0 auto;
+    padding: 3%;
+  }
+  .img_item_panel_content{
+    width: 100%;
+  }
+  .text_box_item_panel_content{
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .title_item_panel_content{
+    color: #2e2d2c;
+    font-size: 18px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 400;
+  }
+  .suptitle_item_panel_content{
+    color: #2e2d2c;
+    font-size: 20px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 600;
+  }
+  .link_button_item_panel_content{
+    text-align: center;
+    color: #004282;
+    font-size: 14px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #004282;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .link_button_item_panel_content:hover{
+    color: #fff;
+    background-color: #004282;
+  }
+
+
+/*\Табы\*/
+/*Документ о квалификации*/
+.img_document{
+width: 100%;
+}
+/*border on title*/
+.title{
+    padding-top: 60px;
+    text-align: center;
+    color: #2e2d2c;
+    font-size: 30px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 600;
+    border-bottom: 3px solid #004282;
+}
+/*\border on title\*/
+.content_document{
+    padding-top: 30px;
+}
+.paragraph_document{
+    color: #2e2d2c;
+    font-size: 20px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 400;
+}
+.box_img{
+    text-align: right;
+}
+.img_document{
+    border: 30px solid #1d5075;
+    border-radius: 10px;
+    border-right: none;
+}
+/*\Документ о квалификации\*/
+/*Наши преимущества*/
+.about{
+    margin-top: 80px;
+}
+.about_row{
+    padding-top: 30px;
+}
+.about_col{
+    text-align: center;
+}
+.about_item{
+    text-align: center;
+}
+.img_about_col{
+    height: 80px;
+    width: 80px;
+}
+.title_red_about{
+    color: #e44546;
+    font-size: 80px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 600;
+}
+.suptitle_red_about{
+    color: #2e2d2c;
+    font-size: 17px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 500;
+}
+.suptitle_red_about_second{
+    margin-top: 30px;
+    text-align: center;
+    color: #2e2d2c;
+    font-size: 17px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 400;
+    max-width: 420px;
+    margin: 0 auto;
+}
+/*\Наши преимущества\*/
+/*Об университете СамГТУ*/
+.about_second{
+    margin-top: 80px;
+}
+.second_about_row{
+    margin-top: 80px;
+}
+.row_about_second{
+    padding-top: 30px;
+}
+.paragraph_about_second{
+    padding-top: 50px;
+    color: #2e2d2c;
+    font-size: 20px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 500;
+}
+.box_img_about_second{
+    text-align: center;
+}
+.img_about_second{
+    width: 100%;
+    max-width: 540px;
+    max-height: 288px;    
+}
+.btn_about_second{
+    margin-top: 30px;
+}
+.link_about_second{
+    text-decoration: none;
+    padding: 20px 40px;
+    color: #2e2d2c;
+    font-size: 14px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-width: 1px;
+    background-position: center center;
+    border-color: #2e2d2c;
+    border-style: solid;
+}
+.link_about_second:hover{
+    color: #ffffff;
+    border-color: #fff;
+    background-color: #2e2d2c;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+/*\Об университете СамГТУ\*/
